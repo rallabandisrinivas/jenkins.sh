@@ -4,3 +4,7 @@ sudo yum install jenkins
 sudo service jenkins start
 #sed -i 's/port="8080"/port="8990"/' cat /etc/sysconfig/jenkins
 #sudo service jenkins restart
+
+echo "This is initial admin password"
+cat  /var/lib/jenkins/secrets/initialAdminPassword
+
